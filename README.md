@@ -1,10 +1,18 @@
 # Django-Docker-TDD
 Practice Code for Django, Docker, and TDD
 
-##requirements.txt
+Note: Create a virtual env for python to better manage your project libraries and requirements.txt
+
+##Creating Virtual Env
+pip install virtualenv
+python3 -m venv env
+source env/bin/activate
+
+##Create requirements.txt
 pip3 freeze > requirements.txt
 
-Note: Create a virtual env for python to better manage your requirements.txt, else it would add all the libraries installed in the base python env
+##Install requirements.txt
+pip install -r requirements.txt
 
 ##build docker
 docker build .
