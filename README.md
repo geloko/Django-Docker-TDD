@@ -5,7 +5,9 @@ Note: Create a virtual env for python to better manage your project libraries an
 
 ## Creating Virtual Env
 pip install virtualenv
+
 python3 -m venv env
+
 source env/bin/activate
 
 ## Create requirements.txt
