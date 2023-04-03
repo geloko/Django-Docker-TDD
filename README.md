@@ -28,3 +28,4 @@ docker compose up
 ## Run commands on docker
 docker-compose run app sh -c "insert command here"
 
+
